@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {IoIosFitness} from "react-icons/io"
 export default function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <Link to="/" className="navbar-brand">ExcersiseTracker</Link>
+        <Link to="/" className="navbar-brand">ExcersiseTracker <IoIosFitness/></Link>
         <div className="collpase navbar-collapse">
         <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
